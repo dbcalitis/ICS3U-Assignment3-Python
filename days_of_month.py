@@ -10,7 +10,7 @@ def main():
     # This function gives the number of days of th emonths based on user input
     leap_year = ""
     user_input = input("Enter the number of the month (ex: January = 1): ")
-    
+
     try:
         user_input = int(user_input)
         if user_input == 1:
@@ -45,10 +45,11 @@ def main():
             print("December has 31 days.")
         else:
             print("Invalid number")
-    except(Exception):
+    except (Exception):
         print("Invalid Input.")
 
     print("\nDone.")
+
 
 if __name__ == "__main__":
     main()
