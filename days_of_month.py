@@ -7,7 +7,7 @@
 
 
 def main():
-    # This function gives the number of days of th emonths based on user input
+    # This function gives the number of days of the months based on user input
     leap_year = ""
 
     # input
